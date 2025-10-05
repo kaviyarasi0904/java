@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        double a=sc.nextDouble();
+        double b=sc.nextDouble();
+        double c=sc.nextDouble();
+        double d=sc.nextDouble();
+        double e=sc.nextDouble();
+        double area=0.5*a*b;
+        double perimeter=c+d+e;
+         System.out.printf("Area of Triangle is %.2f\n", area);
+        System.out.printf("Perimeter of Triangle is %.2f\n", perimeter);
+    }
+}

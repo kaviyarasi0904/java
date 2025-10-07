@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        char letter=sc.next().charAt(0);
+            if(letter=='A'||letter=='E'||letter=='I'||letter=='O'||letter=='U'||
+              letter=='a'||letter=='e'||letter=='i'||letter=='o'||letter=='u')
+            {
+                System.out.println("The Character "+letter+" is Vowel" );
+            }
+            else
+            {
+                System.out.println("The Character "+letter+" is Consonant");
+            }
+          }
+}

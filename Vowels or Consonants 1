@@ -5,7 +5,7 @@ public class Solution {
 
     public static void main(String[] args) {
         
-        Scanner sc=new Scanner(System.in);
+    Scanner sc=new Scanner(System.in);
         char letter=sc.next().charAt(0);
             if(letter=='A'||letter=='E'||letter=='I'||letter=='O'||letter=='U'||
               letter=='a'||letter=='e'||letter=='i'||letter=='o'||letter=='u')

@@ -4,7 +4,6 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner sv=new Scanner(System.in);
         String abc=sv.nextLine();
         System.out.println("Hai" +" "+abc+"!    Welcome to Programming Language...");

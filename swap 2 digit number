@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+     Scanner sc=new Scanner(System.in);
+     int num=sc.nextInt();
+     if(num>=10)
+     {   
+         int num2=num;
+         while(num2>=100)
+         {
+             num2=num2/10;
+              
+         }
+         int ln=num2%10;
+         int fn=num2/10;
+         System.out.println(ln*10+fn);
+     }
+        
+    else
+    {
+        System.out.println("STDOUT");
+    }
+    }
+}

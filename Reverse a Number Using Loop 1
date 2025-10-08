@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]  args)
+    {
+        Scanner sc=new Scanner(System.in);
+        long num=sc.nextLong();
+        if(num>0 && num<1000000000)
+        {
+            int rev=0;
+            while(num>0)
+            {
+                
+                int rem=(int)num%10;
+                 rev=rev*10+rem;
+                num=num/10;
+            }
+            System.out.println(rev);
+        }
+        else
+        {
+            System.out.println("Invalid Input");
+        }
+    }
+}

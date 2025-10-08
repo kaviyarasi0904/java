@@ -1,0 +1,22 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+    Scanner sc=new Scanner(System.in);
+     int salary=sc.nextInt();
+     double hra,da;
+    if(salary<15000)
+    {
+        hra=0.15*salary;
+        da=0.90*salary;
+    }
+    else
+    {
+        hra=5000;
+        da=0.98*salary;
+    }
+   double GrossSalary=hra+da+salary;
+        System.out.printf("%.2f",GrossSalary);
+    
+    
+}}

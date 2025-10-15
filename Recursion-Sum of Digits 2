@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+public class Example{
+    static int sum(int num)
+    {
+        if(num>1 && num<=1000)
+        {
+            return (num%10)+sum(num/10);
+        }
+        else
+        {
+            return 1;
+        }
+    }
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        if(num>=1 && num<=1000)
+        {
+            System.out.printf("Sum of Digit:%04d",sum(num));
+        }
+        else{
+            System.out.println("Enter a Valid Input!!!!!!!");
+        }
+    }
+}

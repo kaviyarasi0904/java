@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+import java.io.*;
+import java.util.*;
+public class Example{
+    static int natural(int a)
+    {
+        if(a>1 && a<=50)
+        {
+            return a + natural(a - 1);
+        }
+        else{
+            return 1;
+            }
+    } 
+   public static void main(String[] args)
+    {
+    Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    if(a>=1 && a<=50)
+    {
+        System.out.printf("The sum of numbers from 1 to "+ a +" : %04d", natural(a));
+        
+    }
+    else
+    {
+        System.out.println("Enter a Valid Input!!!!!!!!!!!!!!!!!!");
+     }
+    }
+}
